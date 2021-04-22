@@ -3,7 +3,7 @@
     <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
       <router-link
         to="/contact-list"
-        class="text-sm font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-white bg-green-600"
+        class="text-sm font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-black bg-white"
       >
         Contact List
       </router-link>
@@ -11,7 +11,7 @@
     <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
       <router-link
         to="/add-contact"
-        class="text-sm font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-green-600 bg-white"
+        class="text-sm font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-black"
       >
         Add Contacts
       </router-link>
@@ -23,4 +23,9 @@
 export default {}
 </script>
 
-<style></style>
+<style scoped>
+.router-link-active {
+  background-color: #059669;
+  color: white;
+}
+</style>
